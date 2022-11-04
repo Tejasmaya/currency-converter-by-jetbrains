@@ -1,8 +1,3 @@
-# currency converter by jetbrains
- Python Program to convert currencies to one another
-
-
-'''
 # write your code here!
 import sys
 
@@ -50,5 +45,3 @@ while flag:
         cache[f'{xcng}'] = rate
         print(f'You received {round(amount * rate, 2)} {xcng.upper()}.')
 
-
-'''
